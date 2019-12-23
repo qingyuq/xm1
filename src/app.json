@@ -1,0 +1,49 @@
+{
+    "pages": [ 
+        "pages/Activity/main",
+        "pages/index/main",
+        "pages/home/main",
+        "pages/apply/main",
+        "pages/answer/main",
+        "pages/submit/main",    
+        "pages/panh/main",
+        "pages/shuom/main",
+       
+        "pages/listDetails/main",
+        "pages/giver/main",
+        "pages/survey/main"
+        
+    ],
+    "window": {
+        "navigationBarBackgroundColor":"#8DD043",
+        "navigationBarTitleText":"实训用隐藏活动"     
+    },
+    "tabBar": {
+        "color": "#999",
+        "backgroundColor": "#fafafa",
+        "selectedColor": "#0AF8DC",
+        "borderStyle": "white",
+
+        "list": [{
+                "text": "首页",
+                "pagePath": "pages/home/main",
+                "iconPath": "static/tabs/shouye.png",
+                "selectedIconPath": "static/tabs/shouye1.png"
+
+            },
+            {
+                "text": "排行榜",
+                "pagePath": "pages/panh/main",
+                "iconPath": "static/tabs/paih.png",
+                "selectedIconPath": "static/tabs/paih-a.png"
+            },
+            {
+                "text": "说明",
+                "pagePath": "pages/shuom/main",
+                "iconPath": "static/tabs/shuoming.png",
+                "selectedIconPath": "static/tabs/shuoming1.png"
+            }
+        ],
+        "position": "bottom"
+    }
+}
